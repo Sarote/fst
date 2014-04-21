@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Quark Light';
+	src: url('../fonts/quark-light.eot');
+	src: url('../fonts/quark-light.eot?#iefix') format('embedded-opentype'), url('../fonts/quark-light.woff') format('woff'), url('../fonts/quark-light.ttf') format('truetype'), url('../fonts/quark-light.svg#Quark Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Quark Bold';
+	src: url('../fonts/quark-bold.eot');
+	src: url('../fonts/quark-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/quark-bold.woff') format('woff'), url('../fonts/quark-bold.ttf') format('truetype'), url('../fonts/quark-bold.svg#Quark Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

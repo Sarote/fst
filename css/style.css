@@ -1,0 +1,158 @@
+@import url(./quark.css);
+@import url(./thaisans-neue.css);
+@import url(./droid-serif.css);
+ html {
+	text-rendering: optimizeLegibility;
+}
+body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+	font-family: Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Quark Bold', Vernada, sans-serif;
+	font-weight: normal;
+}
+a,
+.btn{
+	font-family: 'ThaiSans Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	line-height: 1.4em;
+}
+strong,
+b {
+	font-family: 'ThaiSans Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+}
+p {
+	font-family: 'ThaiSans Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.4em;
+}
+
+/* Slide */
+
+.slider-nav {
+	bottom: 80px;
+}
+.slider-nav__item {
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 12px;
+}
+.slider-nav__item:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+.slider-nav__item--current {
+  background: rgba(0, 0, 0, 0.5);
+}
+.slide-c {
+	width: 100%;
+}
+.slide-h {
+	font-size: 48px;
+	text-align: center;
+	margin-top: 44%;
+}
+.slide-p {
+	font-family: 'Droid Serif', "Times New Roman", serif;
+	font-size: 21px;
+	text-align: center;
+}
+.slide1 {
+	background-color: #1abc9c;
+}
+.slide2 {
+	background-color: #16a085;
+}
+.slide3 {
+	background-color: #f1c40f;
+}
+.slide4 {
+	background-color: #f39c12;
+}
+.slide5 {
+	background-color: #d35400;
+}
+.slide6 {
+	background-color: #c0392b;
+}
+a>i.fa {
+	color: rgba(255, 255, 255, 0.46);
+}
+a>i.fa:hover,
+a>i.fa:focus {
+	color: rgba(51, 51, 51, 0.5);
+}
+
+/* main menu */
+
+.navbar-inverse .navbar-brand {
+	font-family: 'Quark Bold', Vernada, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #222;
+	text-transform: none;
+}
+.navbar-inverse {
+	background-color: rgba(255, 255, 255, 0.5);
+	background-image: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+.navbar-inverse .navbar-nav>li>a {
+	font-family: 'Quark Bold', Vernada, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1.5em;
+	color: #333;
+}
+.dropdown-menu {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.dropdown-header,
+.navbar-inverse .dropdown-menu li>a {
+	font-family: 'ThaiSans Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+.navbar-inverse .dropdown-menu li>a:hover {
+	color: #eee;
+}
+.navbar-inverse .navbar-nav li>a:hover,
+.navbar-nav li .open,
+.navbar-inverse .navbar-nav .active a {
+	background-color: #333;
+}
+.navbar-inverse .navbar-nav>.dropdown>a.caret {
+	border-top-color: #333;
+	border-bottom-color: #333;
+}
+.navbar-inverse .navbar-nav>.dropdown>a.caret:focus,
+.navbar-inverse .navbar-nav>.dropdown>a.caret:hover {
+	border-top-color: #333;
+	border-bottom-color: #333;
+}
+#top-nav {
+	width: 100%;
+	margin-top: -53px;
+	margin-bottom: 0;
+	z-index: 10;
+}
+#top-nav.affix {
+	position: fixed;
+	top: 0;
+	margin-top: 0;
+	-webkit-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out;
+}
+#top-content {
+	margin-top: 15px;
+}
+
+/* side menu */

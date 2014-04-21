@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Droid Serif';
+	src: url('../fonts/droidserif.eot');
+	src: url('../fonts/droidserif.eot?#iefix') format('embedded-opentype'), url('../fonts/droidserif.woff') format('woff'), url('../fonts/droidserif.ttf') format('truetype'), url('../fonts/droidserif.svg#droid_serifregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Droid Serif';
+	src: url('../fonts/droidserif-bold.eot');
+	src: url('../fonts/droidserif-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/droidserif-bold.woff') format('woff'), url('../fonts/droidserif-bold.ttf') format('truetype'), url('../fonts/droidserif-bold.svg#droid_serifbold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}

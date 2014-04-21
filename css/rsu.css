@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'RSU';
+	src: url('../fonts/rsu_light.eot');
+	src: url('../fonts/rsu_light.eot?#iefix') format('embedded-opentype'), url('../fonts/rsu_light.woff') format('woff'), url('../fonts/rsu_light.ttf') format('truetype'), url('../fonts/rsu_light.svg#rsu') format('svg');
+	font-weight: lighter;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RSU';
+	src: url('../fonts/rsu_regular.eot');
+	src: url('../fonts/rsu_regular.eot?#iefix') format('embedded-opentype'), url('../fonts/rsu_regular.woff') format('woff'), url('../fonts/rsu_regular.ttf') format('truetype'), url('../fonts/rsu_regular.svg#rsu') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RSU';
+	src: url('../fonts/rsu_bold.eot');
+	src: url('../fonts/rsu_bold.eot?#iefix') format('embedded-opentype'), url('../fonts/rsu_bold.woff') format('woff'), url('../fonts/rsu_bold.ttf') format('truetype'), url('../fonts/rsu_bold.svg#rsu') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
